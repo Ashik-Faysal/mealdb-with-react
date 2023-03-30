@@ -1,9 +1,7 @@
 import React from "react";
 
 const Card = (props) => {
-  console.log(props.meal);
-    const { id, strMeal, strInstructions, strMealThumb } = props.meal;
-   
+  const { strMeal, strInstructions, strMealThumb } = props.meal;
   return (
     <div className="grid md:grid-cols-2">
       <div className="card w-96 bg-base-100 shadow-xl">
